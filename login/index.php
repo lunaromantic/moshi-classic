@@ -8,10 +8,9 @@
 
         <div class="inner">
             <center> <h2>The account system is a work in progress</h2></center>
-            <center><h4><img src="/assets/images/workers.jpg">
-                    </h4></center>
-</div>
-            <div class="clear"></div>
+            <center><h4><img src="/assets/images/workers.jpg"></h4></center>
+    </div>
+        <div class="clear"></div>
     </div>
     <div id="main-footer"></div>
     </div>
