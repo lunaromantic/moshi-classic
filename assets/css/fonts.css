@@ -1,0 +1,70 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.2.2
+*/
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ * 
+ */
+ 
+body {
+	font: 13px arial,helvetica,clean,sans-serif;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+/**
+ * 99% for safari; 100% is too large
+ */
+ 
+select, input, textarea {
+	font: 99% arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * Bump up !IE to get to 13px equivalent
+ */
+ 
+pre, code {
+	font: 115% monospace;
+	*font-size: 100%;
+}
+
+/**
+ * Default line-height based on font-size rather than "computed-value"
+ * see: http://www.w3.org/TR/CSS21/visudet.html#line-height
+ */
+ 
+body * {
+	line-height: 1.22em;
+}
+
+/*
+     FILE ARCHIVED ON 15:39:26 Nov 13, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:15:50 Mar 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.242
+  captures_list: 663.54
+  LoadShardBlock: 568.832 (3)
+  RedisCDXSource: 33.729
+  PetaboxLoader3.datanode: 700.09 (4)
+  esindex: 0.175
+  exclusion.robots.policy: 0.224
+  CDXLines.iter: 40.041 (3)
+  load_resource: 185.563
+*/

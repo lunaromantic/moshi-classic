@@ -1,0 +1,68 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.2.2
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img{
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+/*
+     FILE ARCHIVED ON 15:39:26 Nov 13, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:15:50 Mar 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 87.851 (3)
+  PetaboxLoader3.datanode: 117.046 (4)
+  RedisCDXSource: 9.453
+  esindex: 0.017
+  CDXLines.iter: 26.399 (3)
+  captures_list: 128.451
+  load_resource: 92.898
+  exclusion.robots.policy: 0.186
+  exclusion.robots: 0.201
+  PetaboxLoader3.resolve: 33.571
+*/

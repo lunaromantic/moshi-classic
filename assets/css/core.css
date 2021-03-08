@@ -1,0 +1,1203 @@
+/*-----------------------------------------------------------------------------
+Moshi Monsters - Core Styles
+
+Author:		Mind Candy
+Web:		http://moshimonsters.com
+			http://mindcandy.com
+-----------------------------------------------------------------------------*/
+
+/* Yahoo! Resets */
+
+@import url(/assets/css/reset.css);
+@import url(/assets/css/fonts.css);
+
+/* =General
+-----------------------------------------------------------------------------*/
+
+html, body 	{ height: 100%; }
+.clear		{ clear: both; }
+.hide		{ display: none; }
+.inner		{ padding: 0px 20px 0 20px; }
+a			{ outline: none; color: #457193; text-decoration: underline; }
+a:hover		{ outline: none; color: #457193; text-decoration: none; }
+label		{ display: none; }
+p			{ margin: 0; line-height: 20px; }
+body 		{ 
+			  text-align: center; 
+			  font-family: Arial, sans-serif; 
+			  color: #6c6c6c; 
+			  background: url(/assets/images/bground.jpg) repeat-x top center;
+			}
+			.body1 		{ 
+				text-align: center; 
+				font-family: Arial, sans-serif; 
+				color: #6c6c6c; 
+				background: url(/assets/images/home.jpg) repeat-x top center;
+			  }
+  
+/* Horizontal Rules */
+
+div.hr		{ height: 1px; background: #d1d1d1; clear: both; }
+div.hr hr 	{ display: none; }
+
+body#contentpage #header h1 {
+	position: absolute;
+	z-index: 90;
+	width: 280px;
+	height: 190px;
+	text-indent: -9999px;
+	background: url(/assets/images/logo.jpg) no-repeat;
+}
+
+body#contentpage #header h1 a {
+	width: 280px;
+	height: 140px;
+	display: block;
+}
+
+/* =Layout - Outlines
+-----------------------------------------------------------------------------*/
+
+#wrapper {
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#header {
+	width: 940px;
+	height: 75px;
+	background: url(/assets/images/header.gif) no-repeat;
+}
+
+#main-wrapper {
+	width: 940px;
+}
+
+#main-header {
+	width: 940px;
+	height: 95px;
+	background: url(/assets/images/main-bground.jpg) no-repeat;
+}
+
+#main-copy {
+	width: 904px;
+	margin-left: 18px;
+	background: url(/assets/images/main-inner-bground.png) repeat-y;
+}
+
+#main-copy div.inner {
+	padding: 27px 27px 0 27px;
+}
+
+#main-copy div.innertyf {
+	padding: 0 27px 0 27px;
+}
+
+#main-copy div.inner #privo {
+	margin-right: 25px;
+	width: 167px;
+	height: 99px;
+	background: url(/assets/images/privo_logo.jpg) no-repeat;
+	float: right;
+}
+
+#main-copy div.inner #privo a {
+	width: 167px;
+	height: 99px;
+	background: url(/assets/images/privo_logo.jpg) no-repeat;
+	display: block;
+}
+
+#main-copy div.inner .wide-column { 
+	width: 560px;
+	float: left;
+}
+
+#main-copy div.inner .narrow-column { 
+	width: 260px;
+	float: left;
+}
+
+#main-copy div.inner .column { /* For main pages 2 col layout */
+	width: 410px;
+	float: left;
+}
+
+#main-copy div.inner #column-spacer { /* Spacing for left column */
+	margin-right: 30px;
+}
+
+#press-links em {
+	display: block;
+}
+
+#main-footer {
+	width: 904px;
+	margin-left: 18px;
+	height: 25px;
+	background: url(/assets/images/main-footer-bground.png) no-repeat;
+}
+
+#tellButton {
+	width: 335px;
+	height: 43px;
+	margin: 0 auto;
+	padding-left: 555px;
+}
+
+
+a.tellButton {
+	width: 335px;
+	height: 43px;
+	display: block;
+	text-indent: -9999px;
+	background-image: url(/assets/images/invite_button.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+a.tellButton:hover {
+	background-position: 0 -43px;
+}
+
+a.tellButton:active {
+	background-position: 0 -86px;
+}
+
+p.tell-more-bar {
+	margin: 30px 0 0 0;
+	clear: left;
+}
+
+a.tell-more {
+	width: 222px;
+	height: 43px;
+	display: block;
+	background: url(/assets/images/tell-more.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+
+a.tell-more:hover {
+	background-position: 0 -43px;
+}
+
+a.tell-more:active {
+	background-position: 0 -86px;
+}
+
+/* Paypal Migration */
+.centeredImage {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+a.paypal-convert {
+	width: 425px;
+	height: 62px;
+	display: block;
+	background: url(../images/paypal_convert_btn.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.paypal-convert:hover {
+	background-position: 0 -62px;
+}
+
+a.paypal-convert:active {
+	background-position: 0 -124px;
+}
+
+#thankyou_text_box {
+	width: 574px;
+	float:left;
+}
+
+#thankyou_image_box {   
+	float: left;
+	width: 226px;
+}
+
+/* Coloured Boxes */
+
+.column-box01 {
+	
+}
+
+#mindcandy-address {
+	padding: 10px;
+	width: 390px !important;
+	background: url(../images/under-addy.gif) top left no-repeat;
+}
+
+p.register-adopt {
+	text-indent: -9999px;
+	background: url(../images/adopt.gif) top left no-repeat;
+	width: 375px;
+	height: 352px;
+}
+	
+p.register-adopt a {
+	display: block;
+	width: 375px;
+	height: 310px;
+}
+
+img.footer-logo {
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+.art-assets {
+	float: left;
+	padding: 10px;
+}
+
+/* =Paragraphs/Headings/Words
+-----------------------------------------------------------------------------*/
+
+strong {
+	font-weight: bold;
+}
+
+.hlight {
+	background: #dfe7cb;
+}
+
+.colourStrong {
+	font-weight: bold;
+	color: #73a600;
+}
+
+#main-wrapper h2 {
+	font-size: 200%;
+	font-family: "Arial Rounded MT Bold", Arial;
+	text-transform: capitalize;
+	color: #437092;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+
+#lightbox.done #lbContent h2 {
+	font-size: 200%;
+	font-family: "Arial Rounded MT Bold", Arial;
+	text-transform: capitalize;
+	color: #437092;
+	margin: 0 0 0.6em 0;
+}
+
+#main-wrapper h3 {
+	font-size: 150%;
+	font-family: "Arial Rounded MT Bold", Arial;
+	text-transform: capitalize;
+	color: #73a600;
+	padding-bottom: 1.3em;
+}
+
+#main-wrapper h4, #lightbox.done #lbContent h4 {
+	font-size: 130%;
+	font-family: "Arial Rounded MT Bold", Arial;
+	color: #73a600;
+	padding-bottom: 1.3em;
+}
+
+#main-wrapper h5 {
+	color: #73a600;
+	padding-bottom: 1.7em;
+	line-height: 22px;
+}
+
+*:first-child+html #main-wrapper h2, *:first-child+html #main-wrapper h3, *:first-child+html #main-wrapper h4, *:first-child+html #lightbox.done #lbContent h4 { /* force "Arial Bold" for IE7 */
+	font-weight: bold;
+}
+
+#main-copy p, #lightbox.done #lbContent p {
+	padding: 0 0 1.3em 0;
+	font-size: 110%;
+	color: #828282;
+	line-height: 22px;
+}
+
+#main-copy ul {
+	padding: 0 0 1.3em 20px;
+	font-size: 110%;
+	color: #828282;
+	line-height: 22px;
+}
+
+#main-copy #pack-includes li {
+    color:#4e6500;
+    background: url(../images/star-bullet.jpg) no-repeat;
+    font-weight:bold;
+}
+
+.play-for-free {
+    padding:40px 0 0 40px
+}
+
+a.play-for-free-rollover {
+    background:url(../images/play-for-free-rollover.jpg) 0 0 no-repeat;
+    display:block;
+    outline:none;
+    border:none;
+    text-decoration:none;
+    width:344px;
+    height:63px;
+}
+
+a.play-for-free-rollover:hover {
+    background:url(../images/play-for-free-rollover.jpg) 0 -63px no-repeat;
+    width:344px;
+    height:63px;
+}
+
+.displace {
+    text-indent:-9999px;
+    font-size:0;
+    line-height:0;
+}
+
+#main-copy ul li {
+	background: url(../images/bullet.gif) no-repeat;
+	padding: 2px 0 3px 32px;
+	margin-bottom: 0.5em;
+	line-height: 22px;
+}
+
+ul#address {
+	padding: 0 !important;
+}
+
+ul#address li {
+	background: none !important;
+	padding: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+#roxheader {
+	background: url(../images/rox_header2.gif) no-repeat center;
+	height:80px;
+}
+
+#roxspacer {
+	background: url(../images/rox_spacer.jpg) no-repeat center;
+}
+
+
+
+/* =2 Col FAQs Layout
+-----------------------------------------------------------------------------*/
+
+div.faq-questions {
+	width: 250px;
+	float: left;
+	background: url(../images/bground-faqs-top.gif) no-repeat;
+	font-size: 85%;
+}
+
+div.faq-answers {
+	width: 600px;
+	float: left;
+}
+
+div.questions-footer {
+	width: 250px;
+	height: 108px;
+	background: url(../images/bground-faqs-bottom.gif) no-repeat;
+}
+
+div.faq-answers div.answers-inner {
+	padding: 0 0 0 20px;
+}
+
+div.faq-questions div.questions-inner {
+	padding: 10px;
+}
+
+div.faq-questions a {
+	font-weight: bold;
+}
+
+div.faq-questions a:hover {
+	color: #db7500;
+}
+
+/* Tutorials */
+
+div.tutorials {
+	width: 240px;
+	height: 145px;
+	float: left;
+	/* background: url(/assets/images/tutorials.gif) no-repeat; */
+}
+
+div.tutorials div.tutorials-inner {
+	/* padding: 70px 0 0 30px; */
+}
+
+div.tutorials div.tutorials-inner p {
+	margin: 0 0 15px 0 !important;
+	padding: 0 !important;
+}
+
+div.tutorials div.tutorials-inner p em {
+	display: block;
+}
+
+/* =Navbar
+-----------------------------------------------------------------------------*/
+
+#navbar {
+    position: absolute;
+    top: 20px;
+    margin-left: 280px;
+    z-index: 99;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+a.nav-blog {
+    width: 68px;
+    height: 59px;
+    background: url(../images/navigation_new.gif) 0 0 no-repeat;
+    margin-left: 20px;
+    text-indent: -9999px;
+    display: block;
+}
+
+a:hover.nav-blog {
+    background-position: 0px -59px;
+}
+
+a.nav-forum {
+    width: 83px;
+    height: 59px;
+    background: url("../images/navigation_new.gif") -68px 0 no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+a:hover.nav-forum {
+    background-position: -68px -59px;
+}
+
+a.nav-help {
+    width: 70px;
+    height: 59px;
+    background: url("../images/navigation_new.gif") -151px 0 no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+a:hover.nav-help {
+    background-position: -151px -59px;
+}
+
+a.nav-membership {
+    width: 136px;
+    height: 59px;
+    background: url("../images/navigation_new.gif") -221px 0 no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+a:hover.nav-membership {
+    background-position: -221px -59px;
+}
+
+a.nav-eshop {
+    width: 80px;
+    height: 59px;
+    background: url("../images/navigation_new.gif") -355px 0 no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+a:hover.nav-eshop {
+    background-position: -355px -59px;
+}
+
+#sign_in_widget_content {
+	margin-left: 30px;
+}
+
+
+/* =Sub Nav
+-----------------------------------------------------------------------------*/
+
+#main-nav {
+	line-height: normal;
+	width: 880px;
+	padding:  0 10px 0 0;
+	margin-left: 7px;
+	background: url("../images/ul-bg.gif") no-repeat right bottom;
+}
+
+#main-nav a {
+	display: block;
+	background: url("../images/norm-left.gif") no-repeat left top;
+    padding: 8px 18px 4px;
+    text-decoration: none;
+    font-size: 80%;
+    color: #437092;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#main-nav a:hover {
+    text-decoration: none;
+	color: #e58f24;
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav li {
+	float: right;
+	background: url("../images/norm-right.gif") no-repeat right top !important;
+	padding: 0 !important;
+	margin: 0 0 0 3px !important;
+	list-style: none !important;
+}
+
+#main-nav #current {
+    background-image: url("../images/norm-righton.gif") !important;
+}
+
+#main-nav #current a {
+    background-image: url("../images/norm-lefton.gif") !important;
+    padding-bottom: 6px;
+}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+
+#footer, #footer a {
+	color: #437092;
+}
+
+#footer p, #footer ul {
+	padding-bottom: 10px;
+}
+
+#footer-content {
+	padding-top: 30px;
+}
+
+#footer-content p span {
+	color: #bbccda;
+}
+
+#homepage #footer-content p span {
+	color: #96bc42;
+}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li a:link {
+	color: #437092;
+	/* padding-right: 10px; */
+	text-decoration: underline;
+}
+
+#footer ul li a:visited {
+	color: #437092;
+	text-decoration: underline;
+}
+
+#footer ul li a:hover {
+	text-decoration: none;
+}
+
+html>/**/body #footer ul li a.footerspacer {
+	margin-right: 5px;
+}
+
+#footer ul li a.footerspacer {
+	margin-right: 5px;
+}
+
+/* =Form Styles
+-----------------------------------------------------------------------------*/
+
+#contentpage dl {
+    position: relative;
+	width: 425px;
+	font-size: 110%;
+}
+
+#contentpage dt {
+    clear: both;
+    float: left;
+    width: 180px;
+    padding: 4px 0 2px 0;
+    text-align: left;
+}
+
+#contentpage dd {
+    float: left;
+    margin: 0 0 8px 0;
+    padding-left: 6px;
+}
+
+input#login_uid,
+dt.login_uid-spacer {
+	margin-top: 30px;
+}
+
+.col {
+	width: 410px; /* For main pages 2 col form layout */
+	float: left;
+}
+
+#col-spacer {
+	margin-right: 30px !important; /* Spacing for left form column */
+}
+
+div.col label, div.column label {
+	display: inline;
+	color: #828282;
+}
+
+div.col div em, div.column div em {
+	display: block;
+	background: #fcffb2;
+	padding: 3px;
+	font-size: 11px;
+	color: #e18f22;
+	font-weight: bold;
+	margin-top: 7px;
+	width: 200px;
+}
+
+div.col div strong, div.column div strong {
+	display: block;
+	padding: 3px 3px 10px 3px;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 7px 0 0 0;
+	width: 200px;
+	margin: 0 0 0px 185px;
+}
+
+div#no-cookies {
+	background: #fcffb2;
+	padding: 3px;
+	width: 395px;
+	color: #e18f22;
+	font-weight: bold;
+	margin-bottom: 1.3em;
+}
+
+div.col .line-input, div.column .line-input {
+	border: 2px solid #bfd7eb;
+	width: 200px;
+	color: #90afc8;
+	background: #f2f8fc url(../images/form-top.gif) repeat-x;
+	width: 202px;
+	font-size: 100%;
+	padding: 3px;
+	/* line-height: 30px; */
+}
+
+div.col .multi-input {
+	border: 2px solid #bfd7eb;
+	width: 200px;
+	padding: 4px;
+	color: #90afc8;
+	background: #f2f8fc url(../images/form-top.gif) repeat-x;
+	width: 202px;
+	font-size: 100%;
+	padding: 5px;
+	line-height: 30px;
+}
+
+/* =Button Styles
+-----------------------------------------------------------------------------*/
+
+/* Submit Button - Input Styles */
+
+.btn {
+	color: #6e7d89;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-top: 2px solid #eee;
+	border-left: 2px solid #eee;
+	border-bottom: 2px solid #bfd7eb;
+	border-right: 2px solid #bfd7eb;
+	padding: 4px;
+	clear: both;
+	background: url(../images/button.gif) bottom left repeat-x;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #e58d24;
+}
+
+.tyf-forms{
+	border:0px;
+	width: 166px;
+	height: 43px;
+	margin: 20px 0 50px 185px;
+	clear: both;
+	background: url(/assets/images/message_button.gif) bottom left repeat-x;
+	cursor: pointer;
+}
+
+a.buy-now {
+	width: 217px;
+	height: 55px;
+	display: block;
+	background: url(../images/buy-now.png) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.buy-now:hover {
+	background-position: 0 -55px;
+}
+
+
+
+/* =Subscription
+-----------------------------------------------------------------------------*/
+
+p.join-bar {
+	margin-left: 305px;
+	clear: left;
+}
+
+a.join-now {
+	width: 243px;
+	height: 61px;
+	display: block;
+	background: url(/assets/images/join-now.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.join-now:hover {
+	background-position: 0 -61px;
+}
+
+a.join-now:active {
+	background-position: 0 -122px;
+}
+
+p.back-room-bar {
+	margin-left: 305px;
+	clear: left;
+}
+
+a.back-room {
+	width: 194px;
+	height: 41px;
+	display: block;
+	background: url(/assets/images/back-room.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+
+a.back-room:hover {
+	background-position: 0 -41px;
+}
+
+a.back-room:active {
+	background-position: 0 -82px;
+}
+
+div.subscription-wrapper #main-copy ul {
+	/* padding: 0 0 1.8em 20px;
+	font-size: 110%;
+	color: #828282; */
+}
+
+div.subscription-wrapper #main-copy ul li {
+	background: url(/assets/images/bullet-small.gif) middle no-repeat;
+	/* padding: 0 0 2px 20px;
+	margin-bottom: 0.5em;
+	line-height: 22px; */
+}
+
+h3.membership {
+	clear: left;
+	margin-bottom: 10px !important;
+	padding-bottom: 0 !important;
+	display: none;
+}
+
+h2.membership-price {
+	position: absolute;
+}
+
+p.membership-p {
+	margin-bottom: 20px !important;
+}
+
+span#parents-learn-more {
+	width: 149px;
+	height: 97px;
+	text-indent: -9999px;
+	position: absolute;
+	margin-left: 190px;
+	top: 170px;
+}
+
+span#parents-learn-more a {
+	width: 238px;
+	height: 61px;
+	display: block;
+	background: url(/assets/images/parents.gif) 0 0 no-repeat;
+}
+
+span#parents-learn-more a:hover {
+	background-position: 0 -61px;
+}
+
+span#kids-learn-more {
+	width: 149px;
+	height: 97px;
+	text-indent: -9999px;
+	position: absolute;
+	margin-left: 20px;
+	top: 170px;
+}
+
+span#kids-learn-more a {
+	width: 238px;
+	height: 61px;
+	display: block;
+	background: url(/assets/images/kids.gif) 0 0 no-repeat;
+}
+
+span#kids-learn-more a:hover {
+	background-position: 0 -61px;
+}
+
+p.membershipsmallprint {
+	text-align: center;
+	color: #ccc;
+	font-size: 90% !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 1px !important;
+	clear: left;
+}
+
+p.region-bar {
+	text-align: center;
+	margin-left: 225px;
+}
+
+p.region-bar a {
+	float: left;
+	margin-bottom: 30px;
+}
+
+strong.highlight {
+	/* background: #ffec82; */
+}
+
+a.month-1 {
+	width: 280px;
+	height: 257px;
+	display: block;
+	text-indent: -9999px;
+	background: url(/assets/images/month-1.jpg) 0 0 no-repeat;
+	float: left;
+	margin-top: 20px;
+}
+
+a.month-1:hover {
+	background: url(/assets/images/month-1.jpg) 0 -257px no-repeat;
+}
+
+a.month-6 {
+	width: 280px;
+	height: 257px;
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/month-6.jpg) 0 0 no-repeat;
+	float: left;
+	margin-top: 20px;
+}
+
+a.month-6:hover {
+	background: url(../images/month-6.jpg) 0 -257px no-repeat;
+}
+
+a.month-12 {
+	width: 280px;
+	height: 257px;
+	display: block;
+	text-indent: -9999px;
+	background: url(/assets/images/month-12.jpg) 0 0 no-repeat;
+	float: left;
+	margin-top: 20px;
+}
+
+a.month-12:hover {
+	background: url(/assets/images/month-12.jpg) 0 -257px no-repeat;
+}
+
+blockquote p {
+    padding: 0px 15px 0px 0px;
+    float: left;
+    background: url(/assets/images/quote_down.gif) bottom right no-repeat;
+}
+
+blockquote {
+    padding: 20px; 
+    background: url(/assets/images/quote_up.gif) top left no-repeat;
+}
+
+cite {
+    float: right; 
+    color: #75a412; 
+    padding-top: 5px;
+}
+
+/* =Unsubscribe
+-----------------------------------------------------------------------------*/
+
+a.cancel-no {
+	width: 76px;
+	height: 30px;
+	display: block;
+	background: url(/assets/images/cancel-no.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.cancel-no:hover {
+	background-position: 0 -30px;
+}
+
+a.cancel-no:active {
+	background-position: 0 -60px;
+}
+
+a.cancel-yes {
+	width: 76px;
+	height: 30px;
+	display: block;
+	background: url(/assets/images/cancel-yes.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.cancel-yes:hover {
+	background-position: 0 -30px;
+}
+
+a.cancel-yes:active {
+	background-position: 0 -60px;
+}
+
+a.unsubscribe-confirm {
+	width: 165px;
+	height: 41px;
+	display: block;
+	background: url(/assets/images/unsubscribe-confirm.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.unsubscribe-confirm:hover {
+	background-position: 0 -41px;
+}
+
+a.unsubscribe-confirm:active {
+	background-position: 0 -82px;
+}
+
+a.unsubscribe-cancel {
+	width: 165px;
+	height: 41px;
+	display: block;
+	background: url(/assets/images/unsubscribe-cancel.gif) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.unsubscribe-cancel:hover {
+	background-position: 0 -41px;
+}
+
+a.unsubscribe-cancel:active {
+	background-position: 0 -82px;
+}
+
+.showhide {
+	display: none;
+}
+
+
+/* =Unsubscribe
+-----------------------------------------------------------------------------*/
+#skins4things-products {
+	width: 849px;
+	height: 317px;
+	display: block;
+	background: url(/assets/images/skins4things/products.jpg) 0 0 no-repeat;
+	text-indent: -9999px;	
+}
+
+#skins4things-how-to-get-yours {
+	width: 849px;
+	height: 250px;
+	display: block;
+	background: url(/assets/images/skins4things/how-to-get-yours.jpg) 0 0 no-repeat;
+	text-indent: -9999px;	
+}
+
+#skins4things-join-now {
+	width: 849px;
+	height: 94px;
+	display: block;
+	background: url(/assets/images/skins4things/join-now-background.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+a.skins4things-join-now-link {
+	width: 243px;
+	height: 61px;
+	display: block;
+	background: url(/assets/images/skins4things/join-now-button.gif) 0 0 no-repeat;
+	margin: 0 auto;
+}
+
+a.skins4things-join-now-link:hover {
+	background-position: 0 -61px;
+}
+
+a.skins4things-join-now-link:active {
+	background-position: 0 -122px;
+}
+
+p.skins4things-while-stocks-last {
+	text-align:right; 
+	padding-right: 2em;
+	font-style: italic;
+}
+
+#skins4things-tandcs ul {
+	padding: none !important;
+	font-size: 100%;
+	color: #828282;
+	line-height: 1.2em;
+	list-style-type: disc;
+}
+
+#skins4things-tandcs ul li {
+	background: none !important;
+	padding: 0 !important;
+	margin-bottom: 0 !important;
+	line-height: 1.2em;	
+}
+
+
+/* =Game Time Card
+-----------------------------------------------------------------------------*/
+
+#already-have-a-time-card {
+    width:824px;
+    height:509px;
+    position:relative;
+    background: url(../images/already-have-a-time-card.jpg) 0 0 no-repeat;
+}
+
+#already-have-a-time-card ul {
+    padding: 60px 0 0 420px;
+    color:#435e07;
+}
+
+#already-have-a-time-card ul li.one {
+    background: url(../images/activate_step_one.gif) 0 0 no-repeat;
+}
+
+#already-have-a-time-card ul li.two {
+    background: url(/assets/images/timecard/activate_step_two.gif) 0 0 no-repeat;
+}
+
+#already-have-a-time-card ul li.three {
+    background: url(../images/activate_step_three.gif) 0 0 no-repeat;
+}
+
+
+#gtc_widget_swf {
+    padding: 10px 0 0 400px;
+}
+
+#want-to-buy-a-moshi-time-card {
+    width:824px;
+    height:868px;
+    background: url(../images/240111-gtc-retailers.jpg) 0 0 no-repeat;
+}
+
+.retailers {
+    padding:30px 20px 0 450px;
+}
+
+.retailers p {
+    font-size:100% !important;
+}
+
+
+
+/* MoshiApps
+-----------------------------------------------------------------------------*/
+
+.appleTM {
+    padding:30px 0 0 0 !important;
+    font-size:10px !important;
+}
+
+.app-store {
+    padding:30px 50px 0 0;
+    float:right;
+}
+
+#buy-bar {
+    margin-left: 169px;
+}
+
+.mouthoff-h3 {
+    text-transform: none !important;
+    padding:30px 0 !important;
+}
+
+.mouthoff-download {
+    text-transform: none !important;
+    padding:20px 0 !important;           
+}
+
+
+/* =End
+-----------------------------------------------------------------------------*/
+
+/*
+     FILE ARCHIVED ON 15:39:20 Nov 13, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:15:52 Mar 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 5385.041
+  exclusion.robots: 0.089
+  exclusion.robots.policy: 0.082
+  RedisCDXSource: 2.575
+  esindex: 0.008
+  LoadShardBlock: 5359.304 (3)
+  PetaboxLoader3.datanode: 5357.951 (4)
+  CDXLines.iter: 19.627 (3)
+  load_resource: 88.449
+  PetaboxLoader3.resolve: 53.173
+*/

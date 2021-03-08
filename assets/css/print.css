@@ -1,0 +1,81 @@
+/*-----------------------------------------------------------------------------
+Moshi Monsters - Print Styles
+
+Author:		Mind Candy
+Web:		http://moshimonsters.com
+			http://mindcandy.com
+-----------------------------------------------------------------------------*/
+
+/* =General
+-----------------------------------------------------------------------------*/
+
+body, p, td, th, ul, ol { 
+	font-family: Arial, sans-serif; 
+	color: #333; 
+	font-size: 12pt;  
+	background-color: #fff; 
+}
+
+a { 
+	outline: none; 
+	color: #73a601; 
+	text-decoration: underline; 
+}
+
+ul#navbar, ul#navbar-loggedin, #footer-content ul, h3.hide, hr, #tooltip-home, #tell-a-friend, #tell-a-friend-loggedout, p.mc-logo	{ 
+	display: none; 
+}
+
+#footer-content {
+	font-size: 6pt;
+}
+
+#header h1 { 
+	/* width:  259px;
+	height: 141px;
+	text-indent: -9999px; 
+	background: url("/web/20111113153920im_/http://c.mmcdn.net/versioned/2.25.45/images/global/logo-print.jpg") 0 0 no-repeat; */
+}
+
+#header h1 a { 
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h4, h5 { 
+	font-family: "Arial Rounded MT Bold", Arial; 
+}
+
+*:first-child+html h1, *:first-child+html h2, *:first-child+html h3, *:first-child+html h4 { /* IE7 */
+	font-weight: bold; 
+}
+
+*html h1, *html h2, *html h3, *html h4, *html h5 { /* IE6 */
+	font-weight: bold; 
+}
+
+a:link:after,
+a:visited:after {
+  content: " (" attr(href) ") ";
+}
+
+/*
+     FILE ARCHIVED ON 15:39:20 Nov 13, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:15:48 Mar 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 4.326
+  LoadShardBlock: 919.957 (3)
+  PetaboxLoader3.datanode: 953.076 (4)
+  CDXLines.iter: 19.658 (3)
+  PetaboxLoader3.resolve: 432.059
+  exclusion.robots: 0.476
+  exclusion.robots.policy: 0.458
+  load_resource: 469.378
+  captures_list: 949.358
+  esindex: 0.018
+*/
