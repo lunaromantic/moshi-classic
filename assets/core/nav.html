@@ -1,33 +1,23 @@
-			<!-- Navbar -->
-			<hr class="hide">
-			<h3 class="hide">Main Navigation:</h3>
+<hr class="hide">
+<h3 class="hide">Main Navigation:</h3>
 
+<div id="navbar">
+    <ul>
+        <li><a class="nav-blog" title="News" href="#">Blog</a></li>
+        <li><a class="nav-forum" title="Forum" href="#">Forum</a></li>
+        <li><a class="nav-help" title="Help" href="#">Help</a></li>
+        <li><a class="nav-membership" title="Membership" href="#">Membership</a></li>
+        <li>
+            <a class="nav-eshop" title="Shop" href="#">
+                <spring:message code="navbar.link.eshop"></spring:message>
+            </a>
+        </li>
 
-            <div id="navbar">
-						<ul>
-							<li><a class="nav-blog" title="News" href="/news">Blog</a></li>
-                            <li><a class="nav-forum" title="Forum" href="/">Forum</a></li>
-                            <li><a class="nav-help" title="Help" href="/help">Help</a></li>
-                            <li><a class="nav-membership" title="Membership" href="/membership">Membership</a></li>
-                            <li><a class="nav-eshop" title="Shop" href="/"><spring:message code="navbar.link.eshop"></spring:message></a></li>
+        <li id="sign_in_widget_content">
+            <a href="/login" target="_self">
+                <img src="/assets/images/signin.png">
+            </a>
+        </li>
 
-							
-
-
-
-
-
-
-	
-        
-	
-		<li id="sign_in_widget_content">
-			<a href = "/login" target = "_self"> 
-				<img src="/assets/images/signin.png">
-			  </a>
-		</li>
-
-						</ul>
-					</div>
-
-	
+    </ul>
+</div>
