@@ -27,7 +27,8 @@
     </div>
     <div id="main-footer"></div>
     </div>
-    <?php include('../assets/core/nav.html') ?> </div>
+    <?php include('../assets/core/nav.html') ?> 
+    </div>
     <?php include('../assets/core/footer.html') ?>
 </body>
 
