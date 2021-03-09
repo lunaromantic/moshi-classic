@@ -1,0 +1,18 @@
+.home-page-text {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  .info {
+    position: absolute;
+    top: 18%;
+    left: 28.5%;
+  }
+  
+  .notes {
+    position: absolute;
+    top: 15%;
+    left: 54.65%;
+  }
+  

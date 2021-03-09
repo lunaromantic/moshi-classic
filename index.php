@@ -6,9 +6,10 @@
     <?php include('./assets/core/nav1.html') ?>
     <div id="main-copy">
         <div class="inner">
+    <?php include('./assets/core/home.html') ?>
             <div class="col" id="col-spacer">
-                <img src="/assets/images/home.jpg" width="800">
-            </div>
+  
+</div>            </div>
             <div class="col">
             </div>
             <div class="clear"></div>

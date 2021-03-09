@@ -587,6 +587,7 @@ a:hover.nav-eshop {
 }
 
 #footer-content {
+	position: center;
 	padding-top: 30px;
 }
 
